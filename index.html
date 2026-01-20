@@ -1,140 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viaje sin pánico</title>
+    <!-- Tipografías -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <!-- HERO -->
     <header class="hero">
-        <div class="hero-content"> <h1>Viaje sin pánico</h1><i class="fa-solid fa-map-pin"></i>
-<p class="hero-subtitle">Todo lo que necesitás para viajar tranquilo, en un solo lugar.</p>
-<a href="#que-incluye" class="hero-cta">Empezar mi viaje</a>
+        <div class="hero-content">
+            <h1>Viaje sin pánico</h1>
+            <p class="hero-subtitle">Todo lo que necesitás para viajar tranquilo, en un solo lugar.</p>
+            <a href="#workbooks" class="hero-cta">Empezar mi viaje</a>
+        </div>
     </header>
-       <main> <section id="que-es"><div class="que-es-titulo"> <h2>¿Qué es Viaje sin pánico?</h2></div>
-    <div class="que-es-contenido"> <p>Viaje sin pánico es un workbook interactivo diseñado para acompañarte antes, durante y después de tu viaje, ayudándote a organizar todo sin estrés y a recordarlo para siempre.</div></section>
 
-    <section id="que-incluye"><div class="que-incluye-titulo"> <h2>¿Qué incluye?</h2></div>
-    <div class="que-incluye-contenido">
-        <div class="card"><h2>La base de un buen viaje</h2> Herramientas prácticas para preparar tu viaje con claridad: ejercicios de mentalidad, checklists previas y una guía de equipaje inteligente para organizar todo sin abrumarte.</div> <div class="card"><h2>Lo que nadie te explica antes de viajar</h2> Información esencial para viajar informado y tranquilo: documentación, normas básicas, seguridad real, transporte, dinero y consejos que te ayudan a evitar errores comunes como turista.</div> <div class="card"><h2>Todo lo que hizo especial tu viaje</h2> Espacios interactivos para registrar tu experiencia: planificación personal, diario de viaje, fotos, momentos especiales y un cierre final para guardar lo vivido y volver a ese viaje cuando quieras.</div></section>
-    <section id="como-funciona"><div class="como-funciona-titulo"><h2>¿Cómo funciona?</h2></div><div class="como-funciona-contenido"><h3>Un acompañamiento en cada etapa de tu viaje</h3></div>
-<div class="pasos">
-  <div class="paso">
-    <span class="paso-numero">1</span>
-    <h4>Antes del viaje</h4>
-    <p>
-      Organizás todo con calma: mentalidad, planificación, documentación y equipaje.
-      Sabés qué hacer y qué no olvidar.
-    </p>
-  </div>
+    <main>
+        <!-- ¿Qué es? -->
+        <section id="que-es" class="section">
+            <h2>¿Qué es Viaje sin pánico?</h2>
+            <p>Viaje sin pánico es un workbook interactivo diseñado para acompañarte antes, durante y después de tu viaje, ayudándote a organizar todo sin estrés y a recordarlo para siempre.</p>
+        </section>
 
-  <div class="paso">
-    <span class="paso-numero">2</span>
-    <h4>Durante el viaje</h4>
-    <p>
-      Tenés a mano información útil, recordatorios y espacios para registrar lo que vivís,
-      sin sentirte perdido ni abrumado.
-    </p>
-  </div>
+        <!-- ¿Qué incluye? -->
+        <section id="que-incluye" class="section section-light">
+            <h2>¿Qué incluye?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>La base de un buen viaje</h3>
+                    <p>Herramientas prácticas para preparar tu viaje con claridad: ejercicios de mentalidad, checklists previas y una guía de equipaje inteligente para organizar todo sin abrumarte.</p>
+                </div>
+                <div class="card">
+                    <h3>Lo que nadie te explica antes de viajar</h3>
+                    <p>Información esencial para viajar informado y tranquilo: documentación, normas básicas, seguridad real, transporte, dinero y consejos que te ayudan a evitar errores comunes como turista.</p>
+                </div>
+                <div class="card">
+                    <h3>Todo lo que hizo especial tu viaje</h3>
+                    <p>Espacios interactivos para registrar tu experiencia: planificación personal, diario de viaje, fotos, momentos especiales y un cierre final para guardar lo vivido y volver a ese viaje cuando quieras.</p>
+                </div>
+            </div>
+        </section>
 
-  <div class="paso">
-    <span class="paso-numero">3</span>
-    <h4>Después del viaje</h4>
-    <p>
-      Cerrás la experiencia: reflexionás, guardás recuerdos y transformás el viaje
-      en algo que podés revivir cuando quieras.
-    </p>
-  </div>
-</div>
-<section class="para-quien">
-  <div class="para-quien-titulo">
-    <h2>¿Para quién es (y para quién no)?</h2>
-  </div>
+        <!-- Cómo funciona -->
+        <section id="como-funciona" class="section">
+            <h2>¿Cómo funciona?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <span class="paso-numero">1</span>
+                    <h4>Antes del viaje</h4>
+                    <p>Organizás todo con calma: mentalidad, planificación, documentación y equipaje. Sabés qué hacer y qué no olvidar.</p>
+                </div>
+                <div class="card">
+                    <span class="paso-numero">2</span>
+                    <h4>Durante el viaje</h4>
+                    <p>Tenés a mano información útil, recordatorios y espacios para registrar lo que vivís, sin sentirte perdido ni abrumado.</p>
+                </div>
+                <div class="card">
+                    <span class="paso-numero">3</span>
+                    <h4>Después del viaje</h4>
+                    <p>Cerrás la experiencia: reflexionás, guardás recuerdos y transformás el viaje en algo que podés revivir cuando quieras.</p>
+                </div>
+            </div>
+        </section>
 
-  <div class="para-quien-contenido">
-    <div class="para-si">
-      <h3>Este workbook es para vos si:</h3>
-      <ul>
-        <li>Querés viajar con más tranquilidad y menos dudas.</li>
-        <li>Te gusta tener todo organizado, pero sin sobreplanear.</li>
-        <li>Valorás herramientas claras, prácticas e interactivas.</li>
-        <li>Querés recordar tu viaje más allá de las fotos.</li>
-      </ul>
-    </div>
+        <!-- Para quién es -->
+        <section class="section section-light">
+            <h2>¿Para quién es (y para quién no)?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Este workbook es para vos si:</h3>
+                    <ul>
+                        <li>Querés viajar con más tranquilidad y menos dudas.</li>
+                        <li>Te gusta tener todo organizado, pero sin sobreplanear.</li>
+                        <li>Valorás herramientas claras, prácticas e interactivas.</li>
+                        <li>Querés recordar tu viaje más allá de las fotos.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Quizás no es para vos si:</h3>
+                    <ul>
+                        <li>Buscás que alguien planifique el viaje por vos.</li>
+                        <li>No te interesa organizar ni registrar tu experiencia.</li>
+                        <li>Preferís improvisar absolutamente todo.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <div class="para-no">
-      <h3>Quizás no es para vos si:</h3>
-      <ul>
-        <li>Buscás que alguien planifique el viaje por vos.</li>
-        <li>No te interesa organizar ni registrar tu experiencia.</li>
-        <li>Preferís improvisar absolutamente todo.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-<section id="testimonios" class="testimonios">
-  <div class="testimonios-titulo">
-    <h2>Viajeros que ya lo usaron</h2>
-  </div>
+        <!-- Nuestros Workbooks -->
+        <section id="workbooks" class="section section-light">
+            <h2>Nuestros Workbooks</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Workbook París">
+                    <h3>París Sin Pánico</h3>
+                    <p>Planifica tu viaje a París con tips, checklist y espacio para tus experiencias.</p>
+                    <div class="card-footer">
+                        <span class="stars">★★★★☆ (4.2)</span>
+                        <span class="sold">152 vendidos</span>
+                    </div>
+                    <div class="card-buy">
+                        <span class="price">$9.99</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Workbook Tokio">
+                    <h3>Tokio Sin Pánico</h3>
+                    <p>Descubre cómo organizar tu viaje a Tokio de forma rápida y sin estrés.</p>
+                    <div class="card-footer">
+                        <span class="stars">★★★★☆ (4.5)</span>
+                        <span class="sold">98 vendidos</span>
+                    </div>
+                    <div class="card-buy">
+                        <span class="price">$11.99</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x180" alt="Workbook Roma">
+                    <h3>Roma Sin Pánico</h3>
+                    <p>Todo lo que necesitás para organizar tu viaje a Roma sin perder la calma.</p>
+                    <div class="card-footer">
+                        <span class="stars">★★★★★ (4.8)</span>
+                        <span class="sold">176 vendidos</span>
+                    </div>
+                    <div class="card-buy">
+                        <span class="price">$12.99</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <div class="testimonios-contenido">
-    <div class="testimonio">
-      <p>“Me ayudó a organizarme sin estrés y a disfrutar más el viaje. Hoy lo vuelvo a leer y revivo todo.”</p>
-      <span>— Sofía, viaje a Italia</span>
-    </div>
+        <!-- Testimonios -->
+        <section id="testimonios" class="section">
+            <h2>Viajeros que ya lo usaron</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <p>“Me ayudó a organizarme sin estrés y a disfrutar más el viaje. Hoy lo vuelvo a leer y revivo todo.”</p>
+                    <span>— Sofía, viaje a Italia</span>
+                </div>
+                <div class="card">
+                    <p>“No es solo para antes del viaje. Durante y después fue igual de útil. Lo recomiendo.”</p>
+                    <span>— Martín, viaje a Brasil</span>
+                </div>
+                <div class="card">
+                    <p>“Me encantó poder anotar todo y guardar recuerdos que no están en el celular.”</p>
+                    <span>— Laura, viaje a España</span>
+                </div>
+            </div>
+        </section>
 
-    <div class="testimonio">
-      <p>“No es solo para antes del viaje. Durante y después fue igual de útil. Lo recomiendo.”</p>
-      <span>— Martín, viaje a Brasil</span>
-    </div>
+        <!-- CTA final -->
+        <section id="workbook" class="cta-final">
+            <h2>Empezá a vivir tu próximo viaje con más calma</h2>
+            <p>Viaje sin pánico te acompaña antes, durante y después, para que disfrutes el camino y guardes lo vivido para siempre.</p>
+            <a href="#workbooks" class="hero-cta">Quiero mi workbook</a>
+        </section>
 
-    <div class="testimonio">
-      <p>“Me encantó poder anotar todo y guardar recuerdos que no están en el celular.”</p>
-      <span>— Laura, viaje a España</span>
-    </div>
-  </div>
-</section>
-<section id="workbook" class="cta-final">
-  <h2>Empezá a vivir tu próximo viaje con más calma</h2>
-  <p>
-    Viaje sin pánico te acompaña antes, durante y después, para que disfrutes
-    el camino y guardes lo vivido para siempre.
-  </p>
-  <button class="hero-cta">Quiero mi workbook</button>
-</section>
-<footer class="footer">
-  <div class="footer-content">
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Viaje sin pánico</h3>
+                    <p>Planealo. Vivilo. Recordalo. Sin estrés.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Inicio</a>
+                    <a href="#que-incluye">Qué incluye</a>
+                    <a href="#como-funciona">Cómo funciona</a>
+                    <a href="#testimonios">Testimonios</a>
+                    <a href="#workbooks">Empezar mi viaje</a>
+                </div>
+                <div class="footer-note">
+                    <p>Workbook digital para acompañarte antes, durante y después de tu viaje. No reemplaza asesoramiento profesional ni servicios de agencia.</p>
+                </div>
+                <div class="footer-copy">
+                    <p>© 2026 Viaje sin pánico</p>
+                </div>
+            </div>
+        </footer>
 
-    <div class="footer-brand">
-      <h3>Viaje sin pánico</h3>
-      <p>Planealo. Vivilo. Recordalo. Sin estrés.</p>
-    </div>
-
-    <div class="footer-links">
-      <a href="#">Inicio</a>
-      <a href="#que-incluye">Qué incluye</a>
-      <a href="#como-funciona">Cómo funciona</a>
-      <a href="#testimonios">Testimonios</a>
-      <a href="#workbook">Empezar mi viaje</a>
-    </div>
-
-    <div class="footer-note">
-      <p>
-        Workbook digital para acompañarte antes, durante y después de tu viaje.
-        No reemplaza asesoramiento profesional ni servicios de agencia.
-      </p>
-    </div>
-
-    <div class="footer-copy">
-      <p>© 2026 Viaje sin pánico</p>
-    </div>
-
-  </div>
-</footer>
     </main>
 
-
-   
 </body>
 </html>
