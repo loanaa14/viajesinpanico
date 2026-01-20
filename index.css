@@ -1,0 +1,371 @@
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #f1f6f3,
+    #f9faf7
+  );
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding: 0 1.5rem;
+}
+body {
+    background-color: #F9FAF7;
+}
+.hero-content {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+
+
+  padding-top: 10vh;
+}
+.hero h1 {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #2f6f5e; 
+  margin-bottom: 0.5rem;
+}
+.hero h2 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 500;
+  color: #2e2e2e;
+  margin-bottom: 1.2rem;
+}
+.hero-subtitle {
+  max-width: 640px;
+  margin: 0 auto 2.5rem auto;
+
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #555;
+}
+
+.hero-cta {
+  padding: 0.9rem 2.4rem;
+
+  background-color: #2f6f5e;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 999px;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+.hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(47, 111, 94, 0.25);
+  background-color: #295f50;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding-top: 6vh;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f9faf7;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+main section {
+  margin-bottom: 6rem;
+}
+.que-es-titulo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.que-es-contenido p {
+  max-width: 720px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+.que-incluye-titulo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.que-incluye-contenido {
+  display: grid;
+  gap: 2rem;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+}
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2f6f5e;
+}
+.como-funciona-titulo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.como-funciona-contenido h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+  max-width: 720px;
+}
+@media (min-width: 768px) {
+  .que-incluye-contenido {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.como-funciona-contenido {
+  margin-top: 3rem;
+}
+
+.pasos {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .pasos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.paso {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  text-align: left;
+}
+
+.paso:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.paso-numero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+  background-color: #2f6f5e;
+  color: #ffffff;
+
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.paso h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #2f6f5e;
+}
+
+.paso p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+.para-quien-titulo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.para-quien-contenido {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .para-quien-contenido {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.para-si,
+.para-no {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.para-si h3,
+.para-no h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2f6f5e;
+}
+
+.para-quien ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.para-quien li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+.testimonios-titulo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.testimonios-contenido {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .testimonios-contenido {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonio {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.testimonio span {
+  display: block;
+  margin-top: 1.2rem;
+  font-size: 0.85rem;
+  color: #2f6f5e;
+  font-weight: 500;
+}
+.cta-final {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #f1f6f3, #f9faf7);
+  border-radius: 24px;
+}
+
+.cta-final h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2f6f5e;
+}
+
+.cta-final p {
+  max-width: 640px;
+  margin: 0 auto 2.5rem auto;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.6;
+}
+.footer {
+  background-color: #eef3f0;
+  padding: 4rem 1.5rem 2rem;
+  margin-top: 6rem;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-brand h3 {
+  font-size: 1.3rem;
+  color: #2f6f5e;
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-links a {
+  font-size: 0.9rem;
+  color: #2f6f5e;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-note p {
+  font-size: 0.85rem;
+  color: #777;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+}
+
+.footer-copy p {
+  font-size: 0.8rem;
+  color: #999;
+}
